@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1494273219 source:c:\users\willlamers\documents\srjc\2017 spring\gameoflife\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	<string>
+

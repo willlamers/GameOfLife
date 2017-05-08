@@ -1,0 +1,96 @@
+.TH "main.cpp" 3 "Fri May 5 2017" "GameOfLife" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+main.cpp
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <iostream>\fP
+.br
+\fC#include <iomanip>\fP
+.br
+\fC#include <fstream>\fP
+.br
+\fC#include <string>\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "bool \fBopenFile\fP (ifstream &, string)"
+.br
+.ti -1c
+.RI "void \fBinitBactArray\fP (ifstream &, char[][20])"
+.br
+.ti -1c
+.RI "void \fBcloseFile\fP (ifstream &)"
+.br
+.ti -1c
+.RI "void \fBdisplayBactArray\fP (const char[][20])"
+.br
+.ti -1c
+.RI "int \fBcountBactArrayRow\fP (const char[][20], int)"
+.br
+.ti -1c
+.RI "int \fBcountBactArrayCol\fP (const char[][20], int)"
+.br
+.ti -1c
+.RI "void \fBnextGenBactArray\fP (char[][20])"
+.br
+.ti -1c
+.RI "void \fBgetNextGen\fP (const char[][20], int[][20], int, int)"
+.br
+.ti -1c
+.RI "void \fBdisplayBactArrayStats\fP (const char[][20])"
+.br
+.ti -1c
+.RI "int \fBmain\fP ()"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "void closeFile (ifstream & inputFile)"
+
+.PP
+Definition at line 95 of file main\&.cpp\&.
+.SS "int countBactArrayCol (const char bacteriaArray[][20], int col)"
+
+.PP
+Definition at line 145 of file main\&.cpp\&.
+.SS "int countBactArrayRow (const char bacteriaArray[][20], int row)"
+
+.PP
+Definition at line 129 of file main\&.cpp\&.
+.SS "void displayBactArray (const char bacteriaArray[][20])"
+
+.PP
+Definition at line 104 of file main\&.cpp\&.
+.SS "void displayBactArrayStats (const char bacteriaArray[][20])"
+
+.PP
+Definition at line 162 of file main\&.cpp\&.
+.SS "void getNextGen (const char bacteriaArray[][20], int neighbors[][20], int row, int col)"
+
+.PP
+Definition at line 221 of file main\&.cpp\&.
+.SS "void initBactArray (ifstream & inputFile, char bacteriaArray[][20])"
+
+.PP
+Definition at line 78 of file main\&.cpp\&.
+.SS "int main ()"
+
+.PP
+Definition at line 19 of file main\&.cpp\&.
+.SS "void nextGenBactArray (char bacteriaArray[][20])"
+
+.PP
+Definition at line 184 of file main\&.cpp\&.
+.SS "bool openFile (ifstream & inputFile, string fileName)"
+
+.PP
+Definition at line 52 of file main\&.cpp\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for GameOfLife from the source code\&.

@@ -194,7 +194,10 @@ void nextGenBactArray(char bacteriaArray[][20])
     {
         for (int col = 0; col < 20; col++)
         {
-             getNextGen(bacteriaArray, neighbors, row, col);
+             if (bacteriaArray[row][col] == '*')
+             {
+                 getNextGen(bacteriaArray, neighbors, row, col);
+             }
         }
     }
 
@@ -244,9 +247,11 @@ void getNextGen(const char bacteriaArray[][20], int neighbors[][20], int row, in
     {
         for (int c = colStart; c <= colEnd; c++)
         {
-            if ((bacteriaArray[row+r][col+c] == '*') && (r != 0 || c != 0))
+//            if ((bacteriaArray[row+r][col+c] == '*') && (r != 0 || c != 0))
+            if (r != 0 || c != 0)
             {
-                neighbors[row][col] += 1;
+//                neighbors[row][col] += 1;
+                neighbors[row+r][col+c] += 1;
             }
         }
     }

@@ -1,0 +1,140 @@
+\hypertarget{main_8cpp}{}\section{main.\+cpp File Reference}
+\label{main_8cpp}\index{main.\+cpp@{main.\+cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$iomanip$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+Include dependency graph for main.\+cpp\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{main_8cpp_a6cc522a56dc1bff8fb47e2db9625acfd}{open\+File} (ifstream \&, string)
+\item 
+void \hyperlink{main_8cpp_a927696ffb87cfd1f257bb3ff6f168891}{init\+Bact\+Array} (ifstream \&, char\mbox{[}$\,$\mbox{]}\mbox{[}20\mbox{]})
+\item 
+void \hyperlink{main_8cpp_a69846108716a2d80a47d1ee1ad7ff4ce}{close\+File} (ifstream \&)
+\item 
+void \hyperlink{main_8cpp_afc923c961d3cb315b7e3bb697563c1ef}{display\+Bact\+Array} (const char\mbox{[}$\,$\mbox{]}\mbox{[}20\mbox{]})
+\item 
+int \hyperlink{main_8cpp_ae4319ff679609c48fa2ef31beb386980}{count\+Bact\+Array\+Row} (const char\mbox{[}$\,$\mbox{]}\mbox{[}20\mbox{]}, int)
+\item 
+int \hyperlink{main_8cpp_a938c5cf9849c7daa183b6cc56ddfb759}{count\+Bact\+Array\+Col} (const char\mbox{[}$\,$\mbox{]}\mbox{[}20\mbox{]}, int)
+\item 
+void \hyperlink{main_8cpp_a9d723437a395e0c0462473f2a57a7a1f}{next\+Gen\+Bact\+Array} (char\mbox{[}$\,$\mbox{]}\mbox{[}20\mbox{]})
+\item 
+void \hyperlink{main_8cpp_a89cad519aea96ae3ebb48c6d59d050a4}{get\+Next\+Gen} (const char\mbox{[}$\,$\mbox{]}\mbox{[}20\mbox{]}, int\mbox{[}$\,$\mbox{]}\mbox{[}20\mbox{]}, int, int)
+\item 
+void \hyperlink{main_8cpp_ae10fbde4a3adfb22d4a168f6ede333a1}{display\+Bact\+Array\+Stats} (const char\mbox{[}$\,$\mbox{]}\mbox{[}20\mbox{]})
+\item 
+int \hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_a69846108716a2d80a47d1ee1ad7ff4ce}\label{main_8cpp_a69846108716a2d80a47d1ee1ad7ff4ce}} 
+\index{main.\+cpp@{main.\+cpp}!close\+File@{close\+File}}
+\index{close\+File@{close\+File}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{close\+File()}{closeFile()}}
+{\footnotesize\ttfamily void close\+File (\begin{DoxyParamCaption}\item[{ifstream \&}]{input\+File }\end{DoxyParamCaption})}
+
+
+
+Definition at line 95 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_a938c5cf9849c7daa183b6cc56ddfb759}\label{main_8cpp_a938c5cf9849c7daa183b6cc56ddfb759}} 
+\index{main.\+cpp@{main.\+cpp}!count\+Bact\+Array\+Col@{count\+Bact\+Array\+Col}}
+\index{count\+Bact\+Array\+Col@{count\+Bact\+Array\+Col}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{count\+Bact\+Array\+Col()}{countBactArrayCol()}}
+{\footnotesize\ttfamily int count\+Bact\+Array\+Col (\begin{DoxyParamCaption}\item[{const char}]{bacteria\+Array\mbox{[}$\,$\mbox{]}\mbox{[}20\mbox{]},  }\item[{int}]{col }\end{DoxyParamCaption})}
+
+
+
+Definition at line 145 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_ae4319ff679609c48fa2ef31beb386980}\label{main_8cpp_ae4319ff679609c48fa2ef31beb386980}} 
+\index{main.\+cpp@{main.\+cpp}!count\+Bact\+Array\+Row@{count\+Bact\+Array\+Row}}
+\index{count\+Bact\+Array\+Row@{count\+Bact\+Array\+Row}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{count\+Bact\+Array\+Row()}{countBactArrayRow()}}
+{\footnotesize\ttfamily int count\+Bact\+Array\+Row (\begin{DoxyParamCaption}\item[{const char}]{bacteria\+Array\mbox{[}$\,$\mbox{]}\mbox{[}20\mbox{]},  }\item[{int}]{row }\end{DoxyParamCaption})}
+
+
+
+Definition at line 129 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_afc923c961d3cb315b7e3bb697563c1ef}\label{main_8cpp_afc923c961d3cb315b7e3bb697563c1ef}} 
+\index{main.\+cpp@{main.\+cpp}!display\+Bact\+Array@{display\+Bact\+Array}}
+\index{display\+Bact\+Array@{display\+Bact\+Array}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{display\+Bact\+Array()}{displayBactArray()}}
+{\footnotesize\ttfamily void display\+Bact\+Array (\begin{DoxyParamCaption}\item[{const char}]{bacteria\+Array\mbox{[}$\,$\mbox{]}\mbox{[}20\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Definition at line 104 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_ae10fbde4a3adfb22d4a168f6ede333a1}\label{main_8cpp_ae10fbde4a3adfb22d4a168f6ede333a1}} 
+\index{main.\+cpp@{main.\+cpp}!display\+Bact\+Array\+Stats@{display\+Bact\+Array\+Stats}}
+\index{display\+Bact\+Array\+Stats@{display\+Bact\+Array\+Stats}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{display\+Bact\+Array\+Stats()}{displayBactArrayStats()}}
+{\footnotesize\ttfamily void display\+Bact\+Array\+Stats (\begin{DoxyParamCaption}\item[{const char}]{bacteria\+Array\mbox{[}$\,$\mbox{]}\mbox{[}20\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Definition at line 162 of file main.\+cpp.
+
+Here is the call graph for this function\+:
+% FIG 1
+\mbox{\Hypertarget{main_8cpp_a89cad519aea96ae3ebb48c6d59d050a4}\label{main_8cpp_a89cad519aea96ae3ebb48c6d59d050a4}} 
+\index{main.\+cpp@{main.\+cpp}!get\+Next\+Gen@{get\+Next\+Gen}}
+\index{get\+Next\+Gen@{get\+Next\+Gen}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{get\+Next\+Gen()}{getNextGen()}}
+{\footnotesize\ttfamily void get\+Next\+Gen (\begin{DoxyParamCaption}\item[{const char}]{bacteria\+Array\mbox{[}$\,$\mbox{]}\mbox{[}20\mbox{]},  }\item[{int}]{neighbors\mbox{[}$\,$\mbox{]}\mbox{[}20\mbox{]},  }\item[{int}]{row,  }\item[{int}]{col }\end{DoxyParamCaption})}
+
+
+
+Definition at line 221 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_a927696ffb87cfd1f257bb3ff6f168891}\label{main_8cpp_a927696ffb87cfd1f257bb3ff6f168891}} 
+\index{main.\+cpp@{main.\+cpp}!init\+Bact\+Array@{init\+Bact\+Array}}
+\index{init\+Bact\+Array@{init\+Bact\+Array}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{init\+Bact\+Array()}{initBactArray()}}
+{\footnotesize\ttfamily void init\+Bact\+Array (\begin{DoxyParamCaption}\item[{ifstream \&}]{input\+File,  }\item[{char}]{bacteria\+Array\mbox{[}$\,$\mbox{]}\mbox{[}20\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Definition at line 78 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{main.\+cpp@{main.\+cpp}!main@{main}}
+\index{main@{main}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 19 of file main.\+cpp.
+
+Here is the call graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{main_8cpp_a9d723437a395e0c0462473f2a57a7a1f}\label{main_8cpp_a9d723437a395e0c0462473f2a57a7a1f}} 
+\index{main.\+cpp@{main.\+cpp}!next\+Gen\+Bact\+Array@{next\+Gen\+Bact\+Array}}
+\index{next\+Gen\+Bact\+Array@{next\+Gen\+Bact\+Array}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{next\+Gen\+Bact\+Array()}{nextGenBactArray()}}
+{\footnotesize\ttfamily void next\+Gen\+Bact\+Array (\begin{DoxyParamCaption}\item[{char}]{bacteria\+Array\mbox{[}$\,$\mbox{]}\mbox{[}20\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Definition at line 184 of file main.\+cpp.
+
+Here is the call graph for this function\+:
+% FIG 3
+\mbox{\Hypertarget{main_8cpp_a6cc522a56dc1bff8fb47e2db9625acfd}\label{main_8cpp_a6cc522a56dc1bff8fb47e2db9625acfd}} 
+\index{main.\+cpp@{main.\+cpp}!open\+File@{open\+File}}
+\index{open\+File@{open\+File}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{open\+File()}{openFile()}}
+{\footnotesize\ttfamily bool open\+File (\begin{DoxyParamCaption}\item[{ifstream \&}]{input\+File,  }\item[{string}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+Definition at line 52 of file main.\+cpp.
+
